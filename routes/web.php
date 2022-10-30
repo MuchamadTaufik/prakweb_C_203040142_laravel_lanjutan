@@ -23,7 +23,7 @@ Route::get('/about', function () {
     return view ('about',[
         "title" => "About",
         "name" => "Muchamad Taufik Mulyadi",
-        "email" => "muhamadtaufikm10@gmail.com",
+        "email" => "muhamadtaufikm@gmail.com",
         "image" => "profile.jpg"
     ]);
 });
